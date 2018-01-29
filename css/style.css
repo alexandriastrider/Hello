@@ -1,5 +1,5 @@
 <style>
- {
+     {
   background-color: pink;
   }
   h1 {
@@ -16,5 +16,7 @@
   }
   p {
     color: blue;
+    border: 5px solid black;
   }
+
 </style>
