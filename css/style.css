@@ -1,7 +1,7 @@
 body
   {
   background-color: lightblue;
-  }
+}
   div.fixed {
     position: fixed;
     bottom:0;
@@ -12,24 +12,56 @@ body
   h1 {
     color: blue;
     font-family: verdana;
-  }
+}
   h4 {
     color: purple;
     font-family: verdana;
     border: solid blue;
-  }
+}
   h5 {
     color: blue;
     font-family: verdana;
-  }
+}
   p {
     color: blue;
     border: 5px solid black;
-  }
+}
   .container {
     max-width: 960px;
     margin: 0 auto;
 }
-html {
+  .navigation > ul > li {
+    display: inline;
+    list-style: none;
+}
+  .navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 1.3em;
+    width: 100vw;
+}
+  .navigation .dropdown {
+    position: absolute;
+    top: 1em;
+    right: 0;
+    display: none;
+}
+  .navigation a:hover + .dropdown {
+    display: block;
+}
+  .navigation > ul.container {
+    //these styles will extend the styles already contained in the .container Class
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+  .header{
+    margin-top: 1.3em;
+}
+   html {
     box-sizing: border-box;
 }
