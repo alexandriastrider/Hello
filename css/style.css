@@ -65,3 +65,36 @@ body
    html {
     box-sizing: border-box;
 }
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100vw;
+}
+
+.navigation > ul > li {
+  position: relative;
+  display: inline;
+  list-style: none;
+}
+
+.navigation .dropdown {
+  position: absolute;
+  top: 1em;
+  right: 0;
+  display: none;
+}
+
+.navigation a:hover + .dropdown {
+  display: block;
+}
+
+.navigation > ul.container {
+  //these styles will extend the styles already contained in the .container class
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
