@@ -12,6 +12,16 @@
 </head>
 
 <body>
+  <div class="navigation">
+    <ul>
+     <li><a href = "index.html">Home</a></li>
+     <li><a href = "projects/index.html">Projects</a></li>
+     <li><a href = "Media/index.html">Media</a></li>
+     <li><a href= "exercises">Exercises</a></li>
+     <li><a href= "blog">Blog</a></li>
+     <li><a href= "Contacts">Contacts</a></li>
+   </ul>
+  </div>
 
 
 
@@ -19,7 +29,7 @@
 The action attribute defines where on the server the form data should be sent
 The method attribute specifies the HTTP method (GET or POST)
 -->
-
+<div>
 <form action="https://formspree.io/alexandria.strider@yahoo.com" method="POST">
 
 <input type="text" name="firstname" placeholder="First Name" size="100" autofocus>
@@ -31,6 +41,7 @@ The method attribute specifies the HTTP method (GET or POST)
   <input type="radio" name="subject" type="personal" checked><br><span>Personal message</span>
   <input type="radio" name="subject" type="other" checked><br><span>Don't know/something else</span>
 </label>
+
 
 <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!
 <input type="checkbox" name="optout" value="skeptical" disabled>Cheeky checkbox...
@@ -44,7 +55,7 @@ The method attribute specifies the HTTP method (GET or POST)
     <option value="email">Email</option>
   </optgroup>
 
-  
+
   <optgroup label="In-Person">
     <option value="networking">We met at a networking event</option>
     <option value="referral">Personal referral</option>
@@ -56,29 +67,13 @@ The method attribute specifies the HTTP method (GET or POST)
 <textarea name="user_message" rows="8" cols="40"></textarea>
 <input type="submit">
 </form>
-
-
-
-
-<div class="navigation">
-  <ul>
-   <li><a href = "index.html">Home</a></li>
-   <li><a href = "projects/index.html">Projects</a></li>
-   <li><a href = "Media/index.html">Media</a></li>
-   <li><a href= "exercises">Exercises</a></li>
-   <li><a href= "blog">Blog</a></li>
-   <li><a href= "Contacts">Contacts</a></li>
- </ul>
 </div>
 
 
 
 
-}
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-}
+
+
 
 </body>
 </html>
