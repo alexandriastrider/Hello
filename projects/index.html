@@ -27,26 +27,6 @@
   </ul>
 </li>
 
-.navigation .dropdown{
-  display:none; //this hides the dropdown menu by default
-}
-.navigation a:hover + .dropdown {
-  display: block; // shows the any dropdown that is a direct sibling of a hovered anchor tag in the navigation bar
-}
-.navigation > ul > li {
-  position: relative; //required for absolute positioning
-  display: inline;
-  list-style: none;
-}
-.navigation .dropdown {
-  position: absolute; //tracks nearest relatively-postioned ancestor
-  top: 1em; // positions according to the ancestor
-  right: 0;
-  display: none;
-}
-.navigation a:hover + .dropdown {
-  display: block;
-}
 
 
 
