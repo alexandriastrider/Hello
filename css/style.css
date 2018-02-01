@@ -117,3 +117,7 @@ body
 }
 .navigation a:hover + .dropdown {
   display: block;
+}
+.dropdown {
+  overflow: hidden;
+}
