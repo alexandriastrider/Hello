@@ -26,6 +26,9 @@ body
     color: blue;
     border: 5px solid black;
 }
+ div {
+  padding: 25px 50px 75px 100px;
+}
   .container {
     max-width: 960px;
     margin: 0 auto;
