@@ -17,14 +17,17 @@ body
     color: purple;
     font-family: verdana;
     border: solid blue;
+    position: center;
 }
   h5 {
     color: blue;
     font-family: verdana;
+    position: center;
 }
   p {
     color: blue;
     border: 5px solid black;
+    position: center;
 }
  div {
   padding: 25px 50px 75px 100px;
@@ -38,7 +41,7 @@ body
     list-style: none;
 }
   .navigation {
-    position:
+    position:center;
     top: 0;
     left: 0;
     height: 1.3em;
