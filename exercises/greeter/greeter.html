@@ -20,8 +20,21 @@
     checkName();
 
     alert('Hello ' + name);
-
     
+
+    var checkAge = function(){
+      if(age === "") {
+        age = prompt('How old are you?');
+
+        checkAge();
+      }
+    }
+    checkAge();
+
+    alert('Hello ' + name + age);
+
+
+
 
   </script>
 
