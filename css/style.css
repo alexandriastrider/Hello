@@ -3,7 +3,7 @@ body
   background-color: lightblue;
 }
   div.fixed {
-    position: fixed;
+    position: center;
     bottom:0;
     right:0;
     width: 300px;
