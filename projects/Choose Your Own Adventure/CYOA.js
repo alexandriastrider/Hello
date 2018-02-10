@@ -20,7 +20,7 @@ if(response === 'Tree 1'){
   }
 
   var response = prompt("At the beach, theres two mermaids. Type 'Blue' to go to the blue mermaid, type 'Red' to go to the red mermaid.");
-  
+
   if(response === 'Blue'){
     response = prompt("You have chosen to follow the blue mermaid and she gives you your very own mermaid tail.");
   } else if (response === 'Red'){
@@ -28,3 +28,5 @@ if(response === 'Tree 1'){
   } else {
     alert("Please type in a valid input! Refresh the page to try again.");
   }
+
+  
