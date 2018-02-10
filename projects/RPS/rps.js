@@ -1,3 +1,4 @@
+console.log('Hello');
 var gameRound = function(){
  var userChoice = prompt("Choose Rock, Paper, or Scisssors by typing 'R', 'P', or 'S'.");
  var rng = Math.random();
