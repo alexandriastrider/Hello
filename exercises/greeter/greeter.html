@@ -7,38 +7,7 @@
   <title>Greeter!</title>
 </head>
 <body>
-  <script type="text/javascript" src="greeting.js">
-    var name = prompt('What is your name?');
-
-    var checkName = function(){
-      if(name === "") {
-        name = prompt('What is your name, for real this time?');
-
-        checkName(); //repeats until a name exists
-      }
-    }
-    checkName();
-
-    alert('Hello ' + name);
-
-    var age = prompt('How old are you?');
-
-
-    var checkAge = function(){
-      if(age === "") {
-        age = prompt('How old are you?');
-
-        checkAge();
-      }
-    }
-    checkAge();
-
-    alert('Hello '  + age);
-
-
-
-
-  </script>
+<script type="text/javascript" src="greeting.js"></script>
 
 
 </body>
