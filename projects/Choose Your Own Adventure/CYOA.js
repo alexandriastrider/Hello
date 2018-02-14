@@ -28,5 +28,3 @@ if(response === 'Tree 1'){
   } else {
     alert("Please type in a valid input! Refresh the page to try again.");
   }
-
-  
