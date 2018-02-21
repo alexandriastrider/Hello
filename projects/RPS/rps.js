@@ -43,3 +43,15 @@ while (roundCounter < 5) {
   gameRound();
   roundCounter++;
 }
+
+
+
+$('li').on('mouseover', () => {
+  $('li').addClass('highlighted')
+})
+$('li').on('mouseleave', () => {
+  $('li').removeClass('highlighted')
+})
+$('#profile-pic').on('click', () => {
+  $('#hidden-blurb').slideDown(); // only works if #hidden-blurb has display:none; in its CSS
+});
