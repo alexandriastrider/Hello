@@ -25,6 +25,5 @@ if(response === 'Tree 1'){
     response = prompt("You have chosen to follow the blue mermaid and she gives you your very own mermaid tail.");
   } else if (response === 'Red'){
     response = prompt("You have chosen to follow the red mermaid and she is looking to take you as her prisoner.");
-  } else {
-    alert("Please type in a valid input! Refresh the page to try again.");
   }
+  
